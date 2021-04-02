@@ -1,0 +1,37 @@
+.btn {
+    height: 4.2rem;
+    border-radius: 5.7rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.primary {
+    background: linear-gradient(180deg, #F68B20 0%, #FF3D00 100%);
+    color: #fff;
+    border: none;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.secondary {
+    border: 1px solid #D6D6D6;
+    color: #8C8C8C;
+    background: #fff;
+    font-weight: normal;
+
+    &:hover {
+        color: #8C8C8C;
+    }
+}

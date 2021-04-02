@@ -1,0 +1,68 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #8C8C8C;
+    background: rgba(231, 236, 255, 0.45);
+    padding: 1rem 4.1rem;
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+    & a {
+        color: #8C8C8C;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fixedBtns {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.fb {
+    margin-right: 2rem;
+    height: 4.2rem;
+    border-radius: 5.7rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &Icon {
+        background-image: url(../../icons/fb.svg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.cta {
+    padding: 0 2rem;
+    width: auto;
+    height: 6rem;
+}

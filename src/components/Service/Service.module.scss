@@ -1,0 +1,201 @@
+.tabs {
+}
+
+.image {
+  max-height: 30rem;
+}
+
+.content {
+  padding: 4rem 7rem;
+  @media screen and (max-width: 1024px) {
+    padding: 4rem;
+  }
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #f67c20;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  overflow: hidden;
+
+  & table {
+    display: none;
+  }
+}
+
+.navItem {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  height: 4.2rem;
+  border-radius: 5.7rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 100%;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d6d6d6;
+  color: #8c8c8c;
+  background: #fff;
+  padding: 0 5rem;
+  white-space: nowrap;
+
+  &:hover {
+    color: #8c8c8c;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+  &.active {
+    background: linear-gradient(180deg, #f68b20 0%, #ff3d00 100%);
+    color: #fff;
+  }
+}
+
+.pageIcon {
+  background: url(../../icons/page.svg) no-repeat;
+  width: 36px;
+  height: 36px;
+  margin: 2rem 0;
+}
+
+.listIcon {
+  background: url(../../icons/list.svg) no-repeat;
+  width: 36px;
+  height: 36px;
+  margin: 2rem 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3.4rem;
+  line-height: 5.1rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.backBtn {
+  margin-top: 4rem;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.doc {
+  display: flex;
+  flex-direction: column;
+}
+
+.docTitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.docName {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.docSpec {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #000000;
+  margin-bottom: auto;
+
+  span {
+    text-transform: capitalize;
+  }
+}
+
+.btns {
+  margin-top: 1rem;
+}
+
+.btnTerm {
+  margin-bottom: 1.1rem;
+}
+
+.arrowLeft {
+  background: url(../../icons/arrow-orange.svg);
+  transform: rotate(180deg);
+  width: 36px;
+  height: 43px;
+  position: absolute;
+  left: 4rem;
+  border: none;
+  bottom: 2rem;
+  cursor: pointer;
+}
+
+.arrowRight {
+  background: url(../../icons/arrow-orange.svg);
+  width: 36px;
+  height: 43px;
+  position: absolute;
+  right: 4rem;
+  border: none;
+  bottom: 2rem;
+  cursor: pointer;
+}
+
+.slider {
+  position: unset;
+  margin-top: 2rem;
+  padding: 7rem 0;
+}
+
+.slide {
+  margin-right: 2rem;
+  height: 100%;
+}
+
+.img {
+  height: 15rem;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
+  max-width: 25rem;
+  max-height: 25rem;
+  @media screen and (max-width: 1024px) {
+      margin-bottom: 2rem;
+  }
+}
+
+.doctors {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.doctor {
+  margin-bottom: 2rem;
+}
+
+.subitems {
+  margin-left: 3rem;
+  @media screen and (max-width: 400px) {
+      margin-left: 1rem;
+  }
+}

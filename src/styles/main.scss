@@ -1,0 +1,55 @@
+@import "~bootstrap/scss/bootstrap";
+@import './variables.scss';
+@import './typography.scss';
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background: linear-gradient(180deg, #F68B20 0%, #FF3D00 100%);
+    border-radius: 5.7rem;
+}
+
+.nav-pills .nav-link {
+    border-radius: 5.7rem;
+}
+
+.row {
+    margin: 0;
+}
+
+[class*='col-'] {
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #1B1B1B;
+
+    &:hover {
+        color: #1B1B1B;
+        text-decoration: none;
+    }
+}
+
+.react-multi-carousel-dot-list {
+    & .react-multi-carousel-dot--active button {
+        background: #F67C20 !important;
+    }
+
+    & .react-multi-carousel-dot button {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .react-multi-carousel-dot-list {
+        display: none !important;
+    }
+}

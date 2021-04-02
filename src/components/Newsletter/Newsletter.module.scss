@@ -1,0 +1,63 @@
+.container {
+    margin: 4rem 7rem;
+}
+
+.newsletter {
+    display: flex;
+    height: 7.6rem;
+    box-shadow: 0px 0px 31.1875px rgba(54, 54, 54, 0.04), 0px 2.77222px 27.7222px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    @media screen and (max-width: 1024px) {
+        height: 4rem;
+        margin: 4rem;
+    }
+}
+
+.input {
+    width: 100%;
+    border: none;
+    padding: 0 9rem;
+    margin-right: auto;
+    border-radius: 20px;
+    @media screen and (max-width: 1024px) {
+        padding: 0 2.5rem;
+    }
+}
+
+.btn {
+    background: linear-gradient(180deg, #F66D20 0%, #F64720 100%);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    width: 20%;
+    @media screen and (max-width: 1024px) {
+        width: 40%;
+    }
+}
+
+.text {
+    margin-top: 1rem;
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.inputGroupCheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    & label {
+        width: 100%;
+    }
+
+    & a {
+        text-decoration: underline;
+    }
+}
+
+.checkbox {
+    margin-right: 1rem;
+}

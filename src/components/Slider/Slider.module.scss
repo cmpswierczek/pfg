@@ -1,0 +1,111 @@
+.slider {
+    padding: 10rem 0;
+    display: flex;
+    overflow-x: scroll;
+
+    @media screen and (max-width: 768px) {
+        margin: 0;
+    }
+
+    position: relative;
+    box-shadow: inset 0px 4px 4px rgba(140, 140, 140, 0.25);
+
+    &::after {
+        content: "";
+        background-size: cover;
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+}
+
+.container {
+    position: relative;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3.4rem;
+    line-height: 5rem;
+    color: #F66D20;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.icon {
+    max-width: 12rem;
+}
+
+.arrowLeft {
+  background: url(../../icons/arrow-orange.svg) no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+  width: 9rem;
+  height: 9rem;
+  position: absolute;
+  left: 4rem;
+  border: none;
+  bottom: 4rem;
+
+  @media screen and (max-width: 1024px) {
+      width: 4rem;
+      height: 4rem;
+      top: 20%;
+  }
+}
+
+.arrowRight {
+  background: url(../../icons/arrow-orange.svg) no-repeat;
+  background-size: cover;
+  width: 9rem;
+  height: 9rem;
+  position: absolute;
+  right: 4rem;
+  border: none;
+  bottom: 4rem;
+
+  @media screen and (max-width: 1024px) {
+      width: 4rem;
+      height: 4rem;
+      top: 20%;
+  }
+}
+
+.bariatriaBtn {
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}

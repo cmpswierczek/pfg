@@ -1,0 +1,82 @@
+.tabs {
+    padding: 4rem 7rem;
+    @media screen and (max-width: 1024px) {
+        padding: 4rem;
+    }
+}
+
+.image {
+    opacity: 0.1;
+}
+
+.text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    overflow: hidden;
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.navItem {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    height: 4.2rem;
+    border-radius: 5.7rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D6D6D6;
+    color: #8C8C8C;
+    background: #fff;
+    padding: 0 5rem;
+    white-space: nowrap;
+
+    &:hover {
+        color: #8C8C8C;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+    .active {
+        background: linear-gradient(180deg, #F68B20 0%, #FF3D00 100%);
+    }
+}
+
+.pageIcon {
+    background: url(../../icons/page.svg) no-repeat;
+    width: 36px;
+    height: 36px;
+    margin: 2rem 0;
+}
+
+.listIcon {
+    background: url(../../icons/list.svg) no-repeat;
+    width: 36px;
+    height: 36px;
+    margin: 2rem 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #1D1A86;
+    margin-bottom: 2rem;
+}
+
+.backBtn {
+    margin-top: 4rem;
+    width: 50%;
+    margin-bottom: 2rem;
+}

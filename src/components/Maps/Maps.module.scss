@@ -1,0 +1,72 @@
+.map {
+    padding: 4rem 7rem;
+    @media screen and (max-width: 1024px) {
+        padding: 4rem 0;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: #F66D20;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+
+    & a {
+        text-decoration: underline;
+    }
+}
+
+.text {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #2F2F2F;
+    margin-left: 2.4rem;
+}
+
+.pinIcon {
+    background: url(../../icons/pin.svg) no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+.clockIcon {
+    background: url(../../icons/clock.svg) no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+.phoneIcon {
+    background: url(../../icons/phone.svg) no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+.mailIcon {
+    background: url(../../icons/mail.svg) no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+
+    @media screen and (max-width: 1024px) {
+        padding: 20px 6.25rem;
+    }
+}
+
+.additionalInfo {
+    color: #F66D20;
+    font-weight: bold;
+    margin-top: 1rem;
+}

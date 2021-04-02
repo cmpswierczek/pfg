@@ -1,0 +1,65 @@
+.doctor {
+    padding: 7rem;
+    @media screen and (max-width: 1024px) {
+        padding: 4rem;
+    }
+}
+
+.title {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    color: #000000;
+}
+
+.text {
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    & td,
+    & th {
+        padding: 1rem;
+        padding-left: 0;
+    }
+}
+
+.hours {
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(181, 181, 181, 0.47);
+    border-radius: 1.7rem;
+    padding: 2rem;
+}
+
+.img {
+    width: 100%;
+    max-height: 50vh;
+    object-fit: contain;
+    object-position: left;
+    margin-bottom: 2rem;
+}
+
+.orangeTitle {
+    color: #F67C20;
+}
+
+.btn {
+    width: 20rem;
+    margin-left: 7rem;
+    @media screen and (max-width: 1024px) {
+        margin-left: 4rem;
+    }
+}
+
+.hoursTitle {
+    font-size: 24px;
+    line-height: 36px;
+    color: #1D1A86;
+}
+
+.spec {
+    text-transform: capitalize;
+}
