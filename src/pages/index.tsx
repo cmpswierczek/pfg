@@ -97,8 +97,8 @@ const Index: FunctionComponent<Props> = props => {
           <ImageFile />
         </Section>
       </div>
-      <div>
-        <iframe src="https://www.youtube-nocookie.com/embed/hXqv57GqMB4" title="YouTube video player" style="padding: 0 7.2rem; padding-top: 2.2rem; position: relative;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div style="padding: 0 7.2rem; padding-top: 2.2rem; position: relative;">
+        <iframe src="https://www.youtube-nocookie.com/embed/hXqv57GqMB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div ref={refs.newsletter}>
         <Section id="newsletter">
