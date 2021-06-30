@@ -6,4 +6,8 @@
 .video {
     width: 720px;
     height: 405px;
+	@media screen and (max-width: 768px) {
+        width: 240px;
+		height: 135px;
+    }
 }
