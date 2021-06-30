@@ -15,6 +15,7 @@ import Contact from "../components/Contact/Contact"
 import Blog from "../components/Blog/Blog"
 import Section from "../components/Section/Section"
 import ImageFile from "../components/ImageFile/ImageFile"
+import YouTube from "../components/YouTube/YouTube"
 
 interface Props {
   data: {
@@ -40,6 +41,7 @@ const Index: FunctionComponent<Props> = props => {
     maps: useRef<HTMLDivElement>(null),
     doctors: useRef<HTMLDivElement>(null),
     imageFile: useRef<HTMLDivElement>(null),
+	youTube: useRef<HTMLDivElement>(null),
   }
   useEffect(() => {
     const id = (props as any).location.hash.replace("#", "")
@@ -95,6 +97,11 @@ const Index: FunctionComponent<Props> = props => {
       <div ref={refs.imageFile}>
         <Section id="imageFile">
           <ImageFile />
+        </Section>
+      </div>
+	  <div ref={refs.youTube}>
+        <Section id="youtube">
+          <YouTube />
         </Section>
       </div>
       <div ref={refs.newsletter}>
