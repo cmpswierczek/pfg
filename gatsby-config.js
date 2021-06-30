@@ -3,7 +3,7 @@ module.exports = {
     title: `Polska Fundacja Gastroenterologii`,
     description: `Polska Fundacja Gastroenterologii od 1990 roku realizuje misję, związaną z kształceniem podyplomowym lekarzy w zakresie profilaktyki, diagnostyki i leczenia chorób przewodu pokarmowego, świadcząc jednocześnie usługi medyczne w tym zakresie.`,
     author: `Polska Fundacja Gastroenterologii`,
-    siteUrl: `${process.env.GATSBY_SITE_URL}`,
+    siteUrl: `https://pfg.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -35,7 +35,7 @@ module.exports = {
         typeName: `WPGraphQL`,
         fieldName: `wpgraphql`,
         // url: `http://pfg.local/graphql`
-        url: `https://serwer2011472.home.pl/wp/graphql`,
+        url: `https://gastro111.home.pl/wp/graphql`,
       },
     },
     `gatsby-plugin-typescript`,
@@ -50,8 +50,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: `${process.env.GATSBY_SITE_URL}`,
-        sitemap: `${process.env.GATSBY_SITE_URL}sitemap.xml`,
+        host: `https://pfg.netlify.app/`,
+        sitemap: `https://pfg.netlify.app/sitemap.xml`,
         env: {
           development: {
             policy: [{ userAgent: "*", disallow: ["/"] }],
@@ -65,7 +65,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `${process.env.GATSBY_SITE_URL}`,
+        siteUrl: `https://pfg.netlify.app/`,
       },
     },
     {
