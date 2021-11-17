@@ -51,10 +51,7 @@ const TabComponent = (props: TabProps) => {
             )}
             {props.slug === "nfz" && (
               <div>
-                Wychodząc naprzeciw oczekiwaniom naszych pacjentów Endoterapia
-                PFG Sp. z o.o. podpisała kontrakt z Narodowym Funduszem Zdrowia
-                na wykonywanie badań gastroskopii diagnostycznej i kolonoskopii
-                diagnostycznej.
+                Szanowni Pacjenci, uprzejmie informujemy, że w 2022 roku Pracownia Endoskopii nie realizuje kontraktu z NFZ.
               </div>
             )}
             <Row>
