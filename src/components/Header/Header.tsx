@@ -94,6 +94,12 @@ const Header = ({ data }: Props) => {
                 link="https://pfg.medsoft.pl/WyszukajTermin"
               />
             </li>
+            <li className={styles.nav}>
+              <a href="https://przychodniapfg.pl/"><img src="https://gastro111.home.pl/wpen/pl.png" /></a>
+            </li>
+            <li className={styles.nav}>
+              <a href="https://en.przychodniapfg.pl/"><img src="https://gastro111.home.pl/wpen/en.png" /></a>
+            </li>
           </ul>
           <div
             className={styles.menu}
