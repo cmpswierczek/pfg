@@ -122,6 +122,12 @@ const Header = ({ data }: Props) => {
                 <a href={item.url}>{item.label}</a>
               </li>
             ))}
+            <li className={styles.navItem}>
+              <a href="https://przychodniapfg.pl/"><img src="https://gastro111.home.pl/wpen/pl.png" /></a>
+            </li>
+            <li className={styles.navItem}>
+              <a href="https://en.przychodniapfg.pl/"><img src="https://gastro111.home.pl/wpen/en.png" /></a>
+            </li>
           </ul>
         </div>
       )}
