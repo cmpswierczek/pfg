@@ -63,12 +63,6 @@ const Map = (props: MapProps) => {
           <div className={styles.text}><a href={`mailto:${props.email}`}>{props.email}</a></div>
         </div>
       </Col>
-      <h2 className={styles.title}>Nasi Partnerzy</h2>
-      <Row className={styles.map}>
-        <Col lg={4} md={6}>
-          <img src="https://gastro111.home.pl/wp/Centrum_Mikrobioty_logo.png" />
-        </Col>
-      </Row>
     </Row>
   )
 }
@@ -109,6 +103,12 @@ const Maps = (props: Props) => {
           info={l.info}
         />
       ))}
+      <h2 className={styles.title}>Nasi Partnerzy</h2>
+      <Row className={styles.map}>
+        <Col lg={4} md={6}>
+          <img src="https://gastro111.home.pl/wp/Centrum_Mikrobioty_logo.png" />
+        </Col>
+      </Row>
     </>
   )
 }
