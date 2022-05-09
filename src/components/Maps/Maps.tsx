@@ -64,6 +64,12 @@ const Map = (props: MapProps) => {
         </div>
       </Col>
     </Row>
+    <h2 className={styles.title}>Nasi Partnerzy</h2>
+    <Row className={styles.map}>
+      <Col lg={4} md={6}>
+        <img src="https://gastro111.home.pl/wp/Centrum_Mikrobioty_logo.png" />
+      </Col>
+    </Row>
   )
 }
 
