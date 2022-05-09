@@ -106,7 +106,7 @@ const Maps = (props: Props) => {
       <Row className={styles.map}>
         <Col lg={12}>
           <h2 className={styles.title}>Nasi Partnerzy</h2>
-        </Col
+        </Col>
         <Col lg={4} md={6}>
           <img src="https://gastro111.home.pl/wp/Centrum_Mikrobioty_logo.png" />
         </Col>
