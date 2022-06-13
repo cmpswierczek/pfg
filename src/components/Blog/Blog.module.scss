@@ -98,3 +98,8 @@
 .content {
    height: 100%;
 }
+
+.carousel-control-next, .carousel-control-prev {
+  height: 0;
+  width: 0;
+}
