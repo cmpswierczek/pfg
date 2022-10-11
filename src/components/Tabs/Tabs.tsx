@@ -51,7 +51,7 @@ const TabComponent = (props: TabProps) => {
             )}
             {props.slug === "nfz" && (
               <div>
-                Szanowni Pacjenci, uprzejmie informujemy, że w 2022 roku Pracownia Endoskopii nie realizuje kontraktu z NFZ.
+                Szanowni Pacjenci, uprzejmie informujemy, że w przychodni Endoterapia PFG wykonujemy badania gastroskopii i kolonoskopii w ramach umowy z Narodowym Funduszem Zdrowia.
               </div>
             )}
             <Row>
