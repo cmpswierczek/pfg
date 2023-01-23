@@ -22,7 +22,7 @@ const PrivacyPolicyPage = (props: Props) => {
           siedzibą 00-631 Warszawa, ul. Ludwika Waryńskiego 10A<br />
           i Endoterapia PFG Sp. z o.o. z siedzibą 00-631 Warszawa, ul. Ludwika Waryńskiego 10A
           <br />
-          2) Robert Wakoń; kontakt z inspektorem ochrony danych IOD &ndash;
+          2) kontakt z inspektorem ochrony danych IOD - Robert Wakoń &ndash;
           r.wakon@rprotection.com.pl
           <br />
           3) Pani/Pana dane osobowe przetwarzane będą w&nbsp;celu świadczenia
