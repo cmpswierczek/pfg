@@ -12,7 +12,7 @@ const Footer = (props: Props) => {
       <Col md={8} sm={12}>
         © PFG 2020.
       </Col>
-      <Col md={4} sm={12} className={styles.nav}>
+      <Col md={5} sm={12} className={styles.nav}>
         <a href="/polityka-prywatnosci/">Polityka prywatności</a>
         <a href="/rodo/">RODO</a>
       </Col>
