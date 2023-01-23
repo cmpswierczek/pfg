@@ -15,6 +15,9 @@ const Footer = (props: Props) => {
       <Col md={4} sm={12} className={styles.nav}>
         <a href="/polityka-prywatnosci/">Polityka prywatności</a>
       </Col>
+      <Col md={3} sm={12} className={styles.nav}>
+        <a href="/rodo/">RODO</a>
+      </Col>
       <div className={styles.fixedBtns}>
         <a href="https://www.facebook.com/Polska-Fundacja-Gastroenterologii-102976498308334/" target="_blank" className={styles.fb}>
           <i className={styles.fbIcon}></i>
