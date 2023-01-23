@@ -14,8 +14,6 @@ const Footer = (props: Props) => {
       </Col>
       <Col md={4} sm={12} className={styles.nav}>
         <a href="/polityka-prywatnosci/">Polityka prywatności</a>
-      </Col>
-      <Col md={4} sm={13} className={styles.nav}>
         <a href="/rodo/">RODO</a>
       </Col>
       <div className={styles.fixedBtns}>
