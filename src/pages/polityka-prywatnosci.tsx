@@ -18,15 +18,12 @@ const PrivacyPolicyPage = (props: Props) => {
           <br />
           2016 r. (Dz. Urz. UE L 119 z&nbsp;04.05.2016) informuję, iż:
           <br />
-          1) administratorem Pani/Pana danych osobowych jest Polska Fundacja
-          Gastroenterologii z<br />
-          siedzibą 02-586 Warszawa, ul. J. Dąbrowskiego 75A lok. 10 i
-          Endoterapia PFG Sp. z o.o. z<br />
-          siedzibą 02-653 Warszawa, Al. Niepodległości 18,
-          kontakt@przychodniapfg.pl
+          1) administratorem Pani/Pana danych osobowych jest <br />Polska Fundacja Gastroenterologii z
+          siedzibą 00-631 Warszawa, ul. Ludwika Waryńskiego 10A<br />
+          i Endoterapia PFG Sp. z o.o. z siedzibą 00-631 Warszawa, ul. Ludwika Waryńskiego 10A
           <br />
-          2) kontakt z inspektorem ochrony danych IOD &ndash;
-          rprzybytniowski@informacjechronione.pl
+          2) Robert Wakoń; kontakt z inspektorem ochrony danych IOD &ndash;
+          r.wakon@rprotection.com.pl
           <br />
           3) Pani/Pana dane osobowe przetwarzane będą w&nbsp;celu świadczenia
           usług medycznych -<br />
