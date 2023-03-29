@@ -20,6 +20,7 @@ const PrivacyPolicyPage = (props: Props) => {
         Możliwe formy kontaktu:<br />
         - listownie przesyłając korespondencję na nasz adres, z dopiskiem „IOD” <br />
         - mailowo na adres: iod@pfg.org.pl.<br />
+          <a href="https://gastro111.home.pl/wp/wp-content/uploads/2023/03/obowiazek_informacyjny.pdf">Obowiązek infromacyjny</a> 
         </p>
       </section>
     </Layout>
